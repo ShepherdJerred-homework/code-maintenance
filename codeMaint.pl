@@ -40,7 +40,7 @@ system("g++ $sourceFile -o compiled");
 print "Running...\n";
 system("./compiled $inputFile > actualOutput");
 print "Diff\n";
-my $diffOutput = system("diff actualOutput expectedOutput");
+my $diffOutput = system("diff actualOutput $expectedOutput");
 
 unless ($diffOutput) {
     print "No difference\n";
