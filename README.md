@@ -14,6 +14,7 @@ After running the program, your script should then use the UNIX command diff to 
 After completion, your script should remove all of the temporary copies and scratch files.  Do not remove the original C++ program, the original input file, the original expected output file, or the scratch directory itself.  BE CAREFUL!  This last step is potentially dangerous.
  
 Example Runs:
+
     $ codeMaint   hello.cpp   /dev/null  ./test/archive/hello.out
     Compiling . . .
     Running . . .
